@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scope</title>
+</head>
+<body>
+    
+    <button onclick="myfunction(5)">Js executor</button>
+
+    <script>
+        function myfunction(x,y){
+            if (y == undefined) {
+                y=5;
+            }
+            document.write(x*y);
+        }
+    </script>
+</body>
+</html>
